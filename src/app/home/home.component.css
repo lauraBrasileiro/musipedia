@@ -1,0 +1,7 @@
+.carousel-inner{
+     background-image: url('/assets/background-tijolos.jpg');
+}
+
+.carousel-item{
+    text-align: center;
+}

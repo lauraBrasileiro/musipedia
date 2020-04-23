@@ -1,0 +1,60 @@
+.navbar {
+    width: 100%;
+    height: auto;
+   display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+    
+
+.item{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.logo{
+    max-width: 32px;
+}
+
+.home {
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/home.png);
+    display: inline-block;
+}
+.home:hover {
+    background-image: url(/assets/home1.png);
+}
+
+.contato {
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/contactus.png);
+    display: inline-block;
+}
+.contato:hover {
+    background-image: url(/assets/mail.png);
+}
+
+.filmes {
+    width: 32px;
+    height: 32px;
+    background-image: url(/assets/video.png);
+    display: inline-block;
+}
+.filmes:hover {
+    background-image: url(/assets/video1.png);
+}

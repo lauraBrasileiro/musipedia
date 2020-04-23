@@ -1,0 +1,23 @@
+.cards {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+
+.title{
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.subtitle{
+    font-size: 1rem;
+}
+.btn {
+    color: #fff;
+    background-color: cadetblue;
+    border: cadetblue;
+    align-items: flex-end;
+}
