@@ -1,4 +1,4 @@
-<main>
+<form>
     <mat-card class="card mat-elevation-z3">
         <mat-card-title class="title">
             Entre em contato
@@ -13,7 +13,7 @@
                 Nome:  
             </label>
             <br>
-            <input type="text" id="inputText" placeholder="digite aqui seu nome"required>
+            <input type="text" minlength="5" id="inputText" placeholder="digite aqui seu nome" required>
         <br>
         <br>
             <!-- email -->
@@ -21,7 +21,7 @@
             E-mail:
             </label>
             <br>
-            <input type="text" id="inputText" placeholder="digite aqui seu e-mail" required>
+            <input type="email" id="inputText" placeholder="digite aqui seu e-mail" required>
         <br>
         
             <!-- campo de texto -->
@@ -33,10 +33,10 @@
         <br>
         <br>
             <div class="d-flex justify-content-end">
-            <button type="button" class="btn btn-outline-secondary">Cancelar</button>
-            <button type="button" class="btn btn-outline-info">Enviar</button>
+            <button type="reset" class="btn btn-outline-secondary">Cancelar</button>
+            <button type="submit" class="btn btn-outline-info">Enviar</button>
             </div>
 
         </div>
     </mat-card>
-</main>
+</form>

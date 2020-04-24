@@ -1,9 +1,26 @@
+.cards-grupo {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
 .cards {
-    width: 20%;
-    height: 300px;
     text-align: center;
-    float: left;
-    margin: 20px;
+    justify-content: space-between;
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 720px) {
+    .cards {
+        flex: 0 0 calc(50% - 10px);
+    }
+
+    .cards:nth-child(odd) {
+        margin-right: 20px;
+    }
 }
 
 .title{
